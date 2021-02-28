@@ -14,7 +14,21 @@
         //theme:  'dark',
         detectSystemDarkTheme: true,
         darkThemeToggler: true,
-        target: '#docute'
+        target: '#docute',
+        nav: [
+          { title: 'Heim', link: '/' }
+        ],
+        sidebar: [
+          { title: 'Oversikt', link: '/' },
+          { title: 'Stjernesystem',
+            children: [
+              { title: 'Inti', link: 'inti-systemet' },
+              { title: 'Zuhe', link: 'zuhe-systemet' },
+              { title: 'Utu',  link:  'utu-systemet' }
+            ]
+          }
+        ]
+        
       })
     </script>
   </body>
