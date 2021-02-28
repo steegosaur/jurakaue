@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>My Docs</title>
+    <title>Jurakaŭe</title>
     <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
   </head>
   <body>
@@ -15,16 +15,79 @@
         detectSystemDarkTheme: true,
         darkThemeToggler: true,
         target: '#docute',
-        nav: [
-          { title: 'Heim', link: '/' }
-        ],
+        //nav: [
+        //  { title: 'Heim', link: '/' }
+        //],
         sidebar: [
-          { title: 'Oversikt', link: '/' },
-          { title: 'Stjernesystem',
+          { title: 'Oversikt',
             children: [
-              { title: 'Inti', link: 'inti-systemet' },
-              { title: 'Zuhe', link: 'zuhe-systemet' },
-              { title: 'Utu',  link:  'utu-systemet' }
+              { title: 'Jurakaŭe',  link: '/' },
+              { title: 'Politiske entitetar', link: 'politiske-entitetar' },
+              { title: 'Språk',     link: 'språk' },
+              { title: 'Teknologi', link: 'teknologi' },
+              { title: 'Artar',
+                children: [
+                  { title: 'Artar i Jurakaŭe', link: 'artar' },
+                  { title: 'Felidar', link: 'felidar' },
+                  { title: 'Kanidar', link: 'kanidar' },
+                  { title: 'Mustelidar', link: 'mustelidar' },
+                  { title: 'Avidar', link: 'avidar' },
+                  { title: 'Ursidar', link: 'ursidar' }
+                ]
+              },
+              { title: 'Religionar',
+                children: [
+                  { title: 'Anteisme', link: 'anteisme' },
+                  { title: 'Omnisme',  link: 'omnisme' },
+                  { title: 'Dei nye horisontars kyrkje', link: 'nye-horisontar' },
+                  { title: 'Kaostilbeding', link: 'kaostilbeding' }
+                ]
+              },
+            ]
+          },
+          { title: 'Inti',
+            children: [
+              { title: 'Inti-systemet', link: 'inti-systemet' },
+              { title: 'Planetar',
+                children: [
+                  
+                ]
+              },
+              { title: 'Land',
+                children: [
+                  
+                ]
+              },
+              { title: 'Byar',
+                children: [
+                  
+                ]
+              },
+              { title: 'UIA-militæret',
+                children: [
+
+                ]
+              },
+              { title: 'UIA-entitetar',
+                children: [
+
+                ]
+              },
+              { title: 'Korporasjonar og organisasjonar',
+                children: [
+
+                ]
+              }
+            ]
+          },
+          { title: 'Zuhe',
+            children: [
+              
+            ]
+          },
+          { title: 'Utu',
+            children: [
+              
             ]
           }
         ]
