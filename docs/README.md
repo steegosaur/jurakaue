@@ -1,7 +1,9 @@
 ---
+
 title: Jurakaŭe
 version: 1.1a-nn
 date: 2021-03-01
+
 ---
 
 # Jurakaŭe
